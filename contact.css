@@ -13,7 +13,7 @@ body {
 
 /* HEADER */
 header {
-    background: #222;
+    background: #1F2937;
     color: #fff;
     padding: 15px 0;
 }
@@ -129,7 +129,7 @@ socials a {
 input,
 textarea {
     padding: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 8px;
     font-size: 15px;
 }
@@ -141,7 +141,7 @@ textarea {
 /* BOUTON BLEU MARIN */
 button {
     padding: 14px;
-    background: #001f3f; /* BLEU MARIN */
+    background: #3882F6; /* BLEU MARIN */
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -152,12 +152,12 @@ button {
 }
 
 button:hover {
-    background: #001737; /* BLEU MARIN FONCÉ */
+    background: #1F2937; /* BLEU MARIN FONCÉ */
 }
 
 /* FOOTER */
 footer {
-    background: #222;
+    background: #1f2937;
     color: #fff;
     text-align: center;
     padding: 15px 0;
