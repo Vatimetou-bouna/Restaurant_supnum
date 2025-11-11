@@ -1,4 +1,4 @@
-/* RESET GÉNÉRAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +11,9 @@ body {
     color: #333;
 }
 
-/* HEADER */
+
 header {
-    background: #222;
+    background: #1F2937;
     color: #fff;
     padding: 15px 0;
 }
@@ -43,24 +43,23 @@ nav a {
 }
 
 nav a.active {
-    color: #001f3f; /* BLEU MARIN */
+    color: #001f3f; 
 }
 
-/* HERO */
+
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('https://i.pinimg.com/736x/f5/6a/01/f56a01d258e073ef5d853c7525dc163c.jpg') center/cover;
+    background:#1F2937;
     padding: 100px 0;
     text-align: center;
     color: white;
 }
 
 .hero h1 {
-    font-size: 42px;
+    font-size: 48px;
     margin-bottom: 15px;
 }
 
-/* SECTION CONTACT */
+
 .contact-section {
     padding: 60px 0;
 }
@@ -76,20 +75,21 @@ nav a.active {
     gap: 40px;
 }
 
-/* CARTES */
+
+
 .contact-info,
 .contact-form {
     background: white;
     padding: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px #1F2937;
 }
 
 .contact-info h2,
 .contact-form h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #222;
+    color: #1F2937;
 }
 
 .contact-info p {
@@ -98,7 +98,7 @@ nav a.active {
 }
 
 .contact-info i {
-    color: #001f3f; /* BLEU MARIN */
+    color: #3882F6; 
     margin-right: 8px;
     font-size: 18px;
 }
@@ -116,10 +116,10 @@ socials a {
 }
 
 .socials a:hover {
-    color: #001f3f; /* BLEU MARIN */
+    color: #3882F6; 
 }
 
-/* FORMULAIRE */
+
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -129,7 +129,7 @@ socials a {
 input,
 textarea {
     padding: 14px;
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     border-radius: 8px;
     font-size: 15px;
 }
@@ -138,10 +138,10 @@ textarea {
     height: 140px;
 }
 
-/* BOUTON BLEU MARIN */
+
 button {
     padding: 14px;
-    background: #001f3f; /* BLEU MARIN */
+    background: #3882F6; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -152,19 +152,19 @@ button {
 }
 
 button:hover {
-    background: #001737; /* BLEU MARIN FONCÉ */
+    background: #1F2937; 
 }
 
-/* FOOTER */
+
 footer {
-    background: #222;
+    background: #1f2937;
     color: #fff;
     text-align: center;
     padding: 15px 0;
     margin-top: 40px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 850px) {
     .contact-grid {
         grid-template-columns: 1fr;
