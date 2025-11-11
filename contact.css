@@ -48,8 +48,7 @@ nav a.active {
 
 /* HERO */
 .hero {
-    background: linear-gradient(#1F2937, #1F2937),
-    url('https://i.pinimg.com/736x/f5/6a/01/f56a01d258e073ef5d853c7525dc163c.jpg') center/cover;
+    background:#1F2937;
     padding: 100px 0;
     text-align: center;
     color: white;
