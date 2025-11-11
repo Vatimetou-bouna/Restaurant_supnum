@@ -1,0 +1,114 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    align-content: right;
+    margin-top: 0px;
+    padding: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+#pages{
+    align-content: left;
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 24px;
+    color: #E5E7EB;
+}
+#up{
+    background-color:#1F2937 ;
+    padding: 20px 50px;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border-left: 6px solid #e67e22;
+}
+
+.menu h3 {
+    margin: 0;
+    font-weight: 700;
+}
+
+.menu p {
+    margin: 5px 0 0;
+    font-weight: 300;
+    color: #555;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2256e6;
+}
+
+#pages a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #E5E7EB;
+    font-weight: 400;
+}
+
+#pages a:hover {
+    color: #2256e6;
+}
+
+#txt {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#txt .title {
+    font-size: 38px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+#txt .subtitle {
+    font-size: 20px;
+    color: #E5E7EB;
+    margin-top: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-left: 6px solid #2256e6;
+    margin: 20px auto;
+    padding: 15px 20px;
+    width: 75%;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.menu img {
+    width: 120px;
+    height: 90px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+}
+
