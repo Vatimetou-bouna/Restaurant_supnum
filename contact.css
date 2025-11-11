@@ -1,4 +1,4 @@
-/* RESET GÉNÉRAL */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-/* HEADER */
+
 header {
     background: #1F2937;
     color: #fff;
@@ -43,10 +43,10 @@ nav a {
 }
 
 nav a.active {
-    color: #001f3f; /* BLEU MARIN */
+    color: #001f3f; 
 }
 
-/* HERO */
+
 .hero {
     background:#1F2937;
     padding: 100px 0;
@@ -59,7 +59,7 @@ nav a.active {
     margin-bottom: 15px;
 }
 
-/* SECTION CONTACT */
+
 .contact-section {
     padding: 60px 0;
 }
@@ -75,7 +75,7 @@ nav a.active {
     gap: 40px;
 }
 
-/* CARTES */
+
 .contact-info,
 .contact-form {
     background: white;
@@ -88,7 +88,7 @@ nav a.active {
 .contact-form h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #222;
+    color: #3882F6;
 }
 
 .contact-info p {
@@ -97,7 +97,7 @@ nav a.active {
 }
 
 .contact-info i {
-    color: #3882F6; /* BLEU MARIN */
+    color: #3882F6; 
     margin-right: 8px;
     font-size: 18px;
 }
@@ -115,10 +115,10 @@ socials a {
 }
 
 .socials a:hover {
-    color: #3882F6; /* BLEU MARIN */
+    color: #3882F6; 
 }
 
-/* FORMULAIRE */
+
 .contact-form form {
     display: flex;
     flex-direction: column;
@@ -137,10 +137,10 @@ textarea {
     height: 140px;
 }
 
-/* BOUTON BLEU MARIN */
+
 button {
     padding: 14px;
-    background: #3882F6; /* BLEU MARIN */
+    background: #3882F6; 
     border: none;
     border-radius: 8px;
     cursor: pointer;
@@ -151,10 +151,10 @@ button {
 }
 
 button:hover {
-    background: #1F2937; /* BLEU MARIN FONCÉ */
+    background: #1F2937; 
 }
 
-/* FOOTER */
+
 footer {
     background: #1f2937;
     color: #fff;
@@ -163,7 +163,7 @@ footer {
     margin-top: 40px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 850px) {
     .contact-grid {
         grid-template-columns: 1fr;
