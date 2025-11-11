@@ -43,10 +43,10 @@ nav a {
 }
 
 nav a.active {
-    color: #f4b400;
+    color: #001f3f; /* BLEU MARIN */
 }
 
-/* HERO BANNER */
+/* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url('https://i.pinimg.com/736x/f5/6a/01/f56a01d258e073ef5d853c7525dc163c.jpg') center/cover;
@@ -76,7 +76,7 @@ nav a.active {
     gap: 40px;
 }
 
-/* INFO + FORM VERSION ABOUTUS */
+/* CARTES */
 .contact-info,
 .contact-form {
     background: white;
@@ -92,14 +92,13 @@ nav a.active {
     color: #222;
 }
 
-/* BLOCK INFO */
 .contact-info p {
     margin-bottom: 15px;
     font-size: 16px;
 }
 
 .contact-info i {
-    color: #f4b400;
+    color: #001f3f; /* BLEU MARIN */
     margin-right: 8px;
     font-size: 18px;
 }
@@ -108,7 +107,7 @@ nav a.active {
     margin-top: 20px;
 }
 
-.socials a {
+socials a {
     font-size: 26px;
     margin-right: 18px;
     color: #555;
@@ -117,7 +116,7 @@ nav a.active {
 }
 
 .socials a:hover {
-    color: #f4b400;
+    color: #001f3f; /* BLEU MARIN */
 }
 
 /* FORMULAIRE */
@@ -139,20 +138,21 @@ textarea {
     height: 140px;
 }
 
-/* BOUTON VERSION ABOUTUS */
+/* BOUTON BLEU MARIN */
 button {
     padding: 14px;
-    background: #f4b400;
+    background: #001f3f; /* BLEU MARIN */
     border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: 17px;
     font-weight: bold;
     transition: 0.3s;
+    color: white;
 }
 
 button:hover {
-    background: #d99f00;
+    background: #001737; /* BLEU MARIN FONCÉ */
 }
 
 /* FOOTER */
