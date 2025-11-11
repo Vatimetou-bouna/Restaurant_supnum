@@ -1,0 +1,172 @@
+/* RESET GÉNÉRAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f8f8f8;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #222;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a.active {
+    color: #001f3f; /* BLEU MARIN */
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('https://i.pinimg.com/736x/f5/6a/01/f56a01d258e073ef5d853c7525dc163c.jpg') center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+/* SECTION CONTACT */
+.contact-section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+/* CARTES */
+.contact-info,
+.contact-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.contact-info i {
+    color: #001f3f; /* BLEU MARIN */
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.socials {
+    margin-top: 20px;
+}
+
+socials a {
+    font-size: 26px;
+    margin-right: 18px;
+    color: #555;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    color: #001f3f; /* BLEU MARIN */
+}
+
+/* FORMULAIRE */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+input,
+textarea {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+textarea {
+    height: 140px;
+}
+
+/* BOUTON BLEU MARIN */
+button {
+    padding: 14px;
+    background: #001f3f; /* BLEU MARIN */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: white;
+}
+
+button:hover {
+    background: #001737; /* BLEU MARIN FONCÉ */
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
