@@ -11,6 +11,9 @@ header {
     color: #E5E7EB;
 }
 #pages{
+    display: flex;
+    gap: 20px; 
+    align-items: center;
     align-content: left;
     margin-top: 0px;
     padding: 0px;
